@@ -1,0 +1,22 @@
+PATH
+  remote: .
+  specs:
+    social_authority (1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.3.4)
+    crack (0.3.2)
+    vcr (2.5.0)
+    webmock (1.8.11)
+      addressable (>= 2.2.7)
+      crack (>= 0.1.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  social_authority!
+  vcr (~> 2.4)
+  webmock (~> 1.8.0)
