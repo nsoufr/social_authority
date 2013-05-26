@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.license     = "MIT"
 
   s.files         = Dir["MIT-LICENSE", "README.md", "lib/**/*"]
-  s.test_files    = `git ls-files -- {test}/*`.split("\n")
+  s.test_files    = Dir["test/**/*.rb"]
   s.require_paths = ["lib"]
 
   s.add_development_dependency "fakeweb", ["~> 1.3"]
