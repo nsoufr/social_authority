@@ -5,7 +5,7 @@ Tiny Wrapper gem for https://followerwonk.com/social-authority
 
 ## Getting Started
 
-1. visit the web `https://followerwonk.com/social-authority` and get your credentials (`access_id`, `secret_id`).
+1. visit `https://followerwonk.com/social-authority` and get your credentials (`access_id`, `secret_id`).
 
 ### Installing gem
 
