@@ -1,5 +1,5 @@
 # social_authority
-
+[![Build Status](https://travis-ci.org/nandosousafr/social_authority.png?branch=master)](https://travis-ci.org/nandosousafr/social_authority)
 
 Tiny Wrapper gem for https://followerwonk.com/social-authority
 
