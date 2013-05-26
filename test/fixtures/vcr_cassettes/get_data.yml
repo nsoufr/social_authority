@@ -1,0 +1,56 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.followerwonk.com/social-authority?screen_name=nandosousafr,aryrabelo,fabioricotta%3BAccessID=member-NzhiMjUwNWMtMGNmZi01NzBjLTg4ZTctOTdlOThkNjMzYTky%3BTimestamp=1369530389%3BSignature=Z6UoHsqRUXp2epBuEqBu7nmeN18=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Etag:
+      - ! '"a458d7f4f5717e6af482a55b03dee037f32de1ab"'
+      Vary:
+      - Accept
+      Content-Length:
+      - '1340'
+      Content-Type:
+      - application/json
+      Last-Modified:
+      - Sun, 26 May 2013 00:58:12 GMT
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '4999'
+      X-Ratelimit-Reset:
+      - '1369529893'
+      Date:
+      - Sun, 26 May 2013 00:58:12 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: US-ASCII
+      string: ! "{\n   \"_embedded\" : [\n      {\n         \"_links\" : {\n            \"self\"
+        : {\n               \"href\" : \"/?user_id=91193168\"\n            }\n         },\n
+        \        \"social_authority\" : \"1\",\n         \"user_id\" : \"91193168\",\n
+        \        \"screen_name\" : \"aryrabelo\"\n      },\n      {\n         \"_links\"
+        : {\n            \"self\" : {\n               \"href\" : \"/?user_id=14374742\"\n
+        \           }\n         },\n         \"social_authority\" : \"52.744510436333144\",\n
+        \        \"user_id\" : \"14374742\",\n         \"screen_name\" : \"fabioricotta\"\n
+        \     },\n      {\n         \"_links\" : {\n            \"self\" : {\n               \"href\"
+        : \"/?user_id=35685819\"\n            }\n         },\n         \"social_authority\"
+        : \"6.98\",\n         \"user_id\" : \"35685819\",\n         \"screen_name\"
+        : \"nandosousafr\"\n      }\n   ],\n   \"_links\" : {\n      \"search\" :
+        [\n         {\n            \"templated\" : \"yes\",\n            \"href\"
+        : \"/social-authority{?screen_name}\",\n            \"name\" : \"screen_name\"\n
+        \        },\n         {\n            \"templated\" : \"yes\",\n            \"href\"
+        : \"/social-authority{?user_id}\",\n            \"name\" : \"user_id\"\n         }\n
+        \     ],\n      \"self\" : {\n         \"href\" : \"/social-authority?screen_name=nandosousafr,aryrabelo,fabioricotta;AccessID=member-NzhiMjUwNWMtMGNmZi01NzBjLTg4ZTctOTdlOThkNjMzYTky;Timestamp=1369530389;Signature=Z6UoHsqRUXp2epBuEqBu7nmeN18%3D\"\n
+        \     }\n   }\n}\n"
+    http_version: 
+  recorded_at: Sun, 26 May 2013 00:58:12 GMT
+recorded_with: VCR 2.5.0

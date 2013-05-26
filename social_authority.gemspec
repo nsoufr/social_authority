@@ -17,6 +17,8 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {test}/*`.split("\n")
   s.require_paths = ["lib"]
 
+  s.add_development_dependency "fakeweb", ["~> 1.3"]
   s.add_development_dependency "webmock", ["~> 1.8.0"]
-  s.add_development_dependency "vcr", ["~> 2.4"]
+  s.add_development_dependency "vcr", [">= 2.0"]
+  s.add_development_dependency "httparty", ["~> 0.11.0"]
 end

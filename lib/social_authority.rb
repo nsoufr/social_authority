@@ -4,7 +4,7 @@ require 'cgi'
 require 'hmac-sha1'
 require 'social_authority/utils'
 require 'social_authority/request'
-
+require 'httparty'
 
 module SocialAuthority
   extend self
