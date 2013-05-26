@@ -31,4 +31,5 @@ describe SocialAuthority::Request do
 
   it { subject.data[0][:user_id].must_equal "91193168" } 
   it { subject.data[0][:social_authority].must_equal "1" }
+  it { subject.data[0][:screen_name].must_equal "aryrabelo" }
 end

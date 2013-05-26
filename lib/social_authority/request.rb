@@ -31,7 +31,8 @@ module SocialAuthority
       @data = response["_embedded"].collect do |user|
         {
           user_id: user["user_id"],
-          social_authority: user["social_authority"]
+          social_authority: user["social_authority"],
+          screen_name: user["screen_name"]
         }   
       end
     end
