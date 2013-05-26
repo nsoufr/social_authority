@@ -1,5 +1,6 @@
 # social_authority
 [![Build Status](https://travis-ci.org/nandosousafr/social_authority.png?branch=master)](https://travis-ci.org/nandosousafr/social_authority)
+[![Code Climate](https://codeclimate.com/github/nandosousafr/social_authority.png)](https://codeclimate.com/github/nandosousafr/social_authority)
 
 Tiny Wrapper gem for https://followerwonk.com/social-authority
 
